@@ -1,0 +1,108 @@
+html {
+    font-family: "roboto", sans-serif;
+}
+
+  /* { border: solid red; border-width: 1px; } */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #1F2937;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 140px;
+    padding-right: 170px;
+    padding-left: 170px;
+    margin: -9px;
+
+}
+
+h1 {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    max-width: fit-content;
+}
+
+.top,
+.subtext,
+.image-placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.submid1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mid.awesome,
+.mid.subtext,
+.mid.sign-up {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mid.image-placeholder {
+    background-color: #bdbdbe5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    width: 520px;
+}
+
+.mid.sign-up {
+    border-radius: 8px;
+    border: none;
+    margin-top: 8px;
+    width: 120px;
+    height: 30px;
+    padding: 6px;
+    padding-left: 34px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/* 4 IMAGE SECTION */
+
+
+/* QUOTE AND SIGNUP */
+
+/* FOOTER */
