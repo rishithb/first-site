@@ -2,7 +2,7 @@ html {
     font-family: "roboto", sans-serif;
 }
 
-  /* { border: solid red; border-width: 1px; } */
+ { border: solid red; border-width: 1px; }
 
 body {
     display: flex;
@@ -102,7 +102,125 @@ h1 {
 
 /* 4 IMAGE SECTION */
 
+.image-sec {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 96px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 48px;  
+}
+
+.textbox {
+    display: flex;
+    color: rgb(90, 88, 88);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 148px;
+    padding-right: 148px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: min-content;
+    text-align: center;
+}
+
+.box {
+    border: solid #3882F6;
+    border-width: 4px;
+    border-radius: 14px;
+    align-self: center;
+    width: 160px;
+    height: 160px;
+    padding-bottom: 8px;
+}
+
+.text {
+    padding-top: 12px;
+}
+
 
 /* QUOTE AND SIGNUP */
+
+.quote-sec {
+    background-color: #E5E7EB;
+    padding-top: 106px;
+    padding-bottom: 106px;
+    padding-left: 248px;
+    padding-right: 248px;
+    margin: -8px;
+}
+
+.quote {
+    text-align: left;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-person {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 8px;
+    padding-right: 32px;
+}
+
+.signup-space {
+    padding-left: 154px;
+    padding-right: 154px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+
+}
+
+.signup-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 148px;
+    padding-left: 148px;
+}
+
+.action {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.caption {
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 8px;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: solid #F9FAF8;
+    border-width: 2px;
+    font-weight: bolder;
+    font-size: 14px;
+    width: 120px;
+    height: 32px;
+    margin-top: 8px;
+}
 
 /* FOOTER */
